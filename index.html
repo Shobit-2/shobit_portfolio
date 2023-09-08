@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shobit Portfolio Website</title>
+</head>
+<!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css"> -->
+<style>
+    /* CSS Reset */
+    body {
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        /* background: url('photo3.jpg'); */
+        background: url('https://comindesign.fr/wp-content/uploads/2018/08/website-design-slider-background-stockton.jpg');
+        /* background: url('https://mcarlsonportfolio.files.wordpress.com/2017/04/portfolio-background.jpg'); */
+
+    }
+
+    .left {
+        display: inline-block;
+        /* border: 2px solid crimson; */
+        position: absolute;
+        left: 34px;
+        top: 20px;
+
+    }
+
+    .left img {
+        /* width: 65px auto; */
+        filter: invert(100%);
+
+    }
+
+    .left div {
+        text-align: center;
+    }
+
+    .mid {
+        display: block;
+        width: 45%;
+        margin: 20px auto;
+        /* border: 2px solid green; */
+    }
+
+    .midb {
+        display: block;
+        width: 35%;
+        margin: 20px auto;
+        /* border: 2px solid green; */
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 30px;
+        display: inline-block;
+        /* border: 2px solid gold; */
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 16px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 30px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a:active {
+        text-decoration: underline;
+        color: grey;
+
+    }
+
+    .btn {
+        font-family: 'Roboto', sans-serif;
+        margin: 0px 9px;
+        color: white;
+        background-color: black;
+        padding: 4px 14px;
+        border: 2px solid rgb(163, 159, 159);
+        border-radius: 5px;
+        font-size: 13px;
+        cursor: pointer;
+
+    }
+
+    .btn:hover {
+        background-color: rgb(92, 90, 90);
+    }
+
+    .container {
+
+        /* border: 2px solid white; */
+        margin: 50px auto;
+        /* padding: 50px; */
+        width: 60%;
+        border-radius: 15px;
+
+    }
+
+    .form-group input {
+        text-align: center;
+        display: block;
+        width: 325px;
+        padding: 6px;
+        border: 2px solid black;
+        border-radius: 5px;
+        margin: 11px auto;
+        font-size: 15px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .container h1 {
+        text-align: center;
+        justify-content: center;
+
+    }
+    /* .container h2 {
+        text-align: center;
+    
+
+    } */
+
+    .photo {
+        /* border: 2px solid white; */
+        margin: 115px auto;
+        padding: 1px;
+        width: 75%;
+        border-radius: 15px;
+        align-items: center;
+
+    }
+
+    .photo h1 {
+        text-align: center;
+
+    }
+
+    .container button {
+        display: block;
+        width: 72%;
+        margin: 20px auto;
+
+    }
+
+    .center{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 25%;
+        border-radius: 15px;
+    }
+    h2{
+        text-align: justify;
+    }
+
+    /* #img {
+            float: left;
+            width: 48%;
+
+        }
+       
+
+    #text {
+            float: right;
+            width: 48%;
+            margin-right: 100px;
+    } 
+     */
+
+        
+</style>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <!-- <img src="sk.jpg" alt=""> -->
+            <h1><div>SK</div></h1>
+
+        </div>
+
+        <!-- mid box for navbar -->
+        <div class="mid">
+
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="contact_us.html">Contact</a></li>
+            </ul>
+
+
+        </div>
+
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">Call us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+        <div class="container"> 
+            <h1>Shobit Khandelwal</h1>
+        </div>
+
+        <img src="profilephoto.jpg" alt="" class="center">
+
+        <div id = "text" class="container"> 
+            <h2> Hi, I am Shobit Khandelwal , an Engineering Graduate , passionate about computers and software engineering. Built & Deployed scalable travel, event and telemedicine web and hybrid mobile apps using React JS and Node JS
+                . I am also interested in data analytics and visualization.</h2>
+    
+        </div>
+
+        <div class="midb">
+
+            <ul class="navbar">
+                <li><a href="#">LinkedIn</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Twitter</a></li>
+            </ul>
+
+
+        </div>
+    
+</body>
+
+</html>
